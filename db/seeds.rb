@@ -14,3 +14,12 @@
   Restaurant.create(name: "Cookies", address: "Berlin", phone_number: 901874141, category: "italian")
 
 
+
+   Review.create(content: "Great experience", rating: 4, restaurant_id: 1)
+   Review.create(content: "Horrible place", rating: 1, restaurant_id: 2)
+   Review.create(content: "Never again", rating: 1, restaurant_id: 2)
+   Review.create(content: "Best place in town", rating: 5, restaurant_id: 5)
+   Review.create(content: "Great experience", rating: 4, restaurant_id: 1)
+   Review.create(content: "Ok experience", rating: 2, restaurant_id: 3)
+   Review.create(content: "Good", rating: 3, restaurant_id: 3)
+   Review.create(content: "Great experience", rating: 5, restaurant_id: 3)
